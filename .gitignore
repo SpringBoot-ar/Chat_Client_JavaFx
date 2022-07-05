@@ -1,0 +1,9 @@
+/tmpdata
+*.iml
+.idea
+.eclipse
+target
+
+.DS_Store
+
+!/.sdkmanrc

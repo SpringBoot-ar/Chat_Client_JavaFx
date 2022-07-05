@@ -1,0 +1,93 @@
+.rootCenterPane{
+    -fx-background-image: url("background.png");
+    -fx-background-repeat: repeat;
+    -fx-background-position: center center;
+}
+.rootCenterPane_box{
+    -fx-border-color: rgba(244,244,244,0.40);
+    -fx-border-width: 0px;
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+    -fx-background-color: rgba(244,244,244,0.60);
+    -fx-padding: 10 10 10 10;
+}
+
+.textUsername{
+    -fx-border-color: rgba(244,244,244,0.40);
+    -fx-border-width: 0px;
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+}
+/*.scrollView {
+    -fx-background-color: transparent;
+}
+.scrollView .viewport {
+    -fx-background-color: transparent;
+}*/
+
+/* FORM ITEMS */
+
+.btnSend{
+    -fx-border-color: rgba(244,244,244,0.40);
+    -fx-border-width: 0px;
+    -fx-border-radius: 0 0 25 0;
+    -fx-background-radius: 0 0 25 0;
+    -fx-background-color: rgba(244,244,244,0.70);
+}
+.btnLogout{
+    -fx-border-color: rgba(244,80,80,0.40);
+    -fx-border-width: 0px;
+    -fx-border-radius: 0 0 0 25;
+    -fx-background-radius: 0 0 0 25;
+    -fx-text-fill: rgba(244,244,244,1);
+    -fx-background-color: rgba(244,0,0,0.80);
+}
+.txtMsg{
+    -fx-border-color: rgba(244,244,244,0.40);
+    -fx-border-width: 0px;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: rgba(244,244,244,0.70);
+}
+.chatPain{
+    -fx-border-color: rgba(244,244,244,0.40);
+    -fx-border-width: 0px;
+    -fx-border-radius: 0 25 25 0;
+    -fx-background-radius: 0 25 25 0;
+    -fx-background-color: rgba(244,244,244,0.60);
+}
+.chatMsgPainMe{
+    -fx-border-color: rgba(244,244,244,0.40);
+    -fx-border-width: 0px;
+    -fx-border-radius: 25 25 25 0;
+    -fx-background-radius: 25 25 25 0;
+    -fx-background-color: rgba(244,244,244,0.60);
+}
+.chatMsgPainMe_arrow{
+    -fx-border-color: rgba(244,244,244,0.40);
+    -fx-border-width: 0px;
+    -fx-border-radius: 0 0 0 30;
+    -fx-background-radius: 0 0 0 30;
+    -fx-background-color: rgba(244,244,244,0.60);
+}
+.chatMsgPainOther{
+    -fx-border-color: rgba(244,244,244,0.40);
+    -fx-border-width: 0px;
+    -fx-border-radius: 25 25 0 25;
+    -fx-background-radius: 25 25 0 25;
+    -fx-background-color: rgba(244,244,244,0.60);
+}
+.chatMsgPainOther_arrow{
+    -fx-border-color: rgba(244,244,244,0.40);
+    -fx-border-width: 0px;
+    -fx-border-radius: 0 0 30 0;
+    -fx-background-radius: 0 0 30 0;
+    -fx-background-color: rgba(244,244,244,0.60);
+}
+.usersPain{
+    -fx-border-color: rgba(244,244,244,0.40);
+    -fx-border-width: 0px;
+    -fx-border-radius: 25 0 0 25;
+    -fx-background-radius: 25 0 0 25;
+    -fx-background-color: rgba(244,244,244,0.60);
+}

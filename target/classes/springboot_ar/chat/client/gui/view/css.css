@@ -1,0 +1,170 @@
+.rootCenterPane{
+    -fx-background-image: url("background.png");
+    -fx-background-repeat: repeat;
+    -fx-background-position: center center;
+}
+.rootCenterPane_popup{
+    -fx-background-color: TRANSPARENT;
+}
+.rootCenterPane_box{
+    -fx-border-color: rgba(244,244,244,0.40);
+    -fx-border-width: 0px;
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+    -fx-background-color: rgba(244,244,244,0.60);
+    -fx-padding: 10 10 10 10;
+}
+
+.textUsername{
+    -fx-border-color: rgba(244,244,244,0.40);
+    -fx-border-width: 0px;
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+}
+.scrollView {
+    -fx-background-color: transparent;
+}
+.scrollView .viewport {
+    -fx-background-color: transparent;
+}
+
+/* FORM ITEMS */
+.form_items_txtF{
+    -fx-background-color: rgba(244,244,244,0.90);
+    -fx-text-fill: rgba(0,0,0,0.80);
+    -fx-border-style: dashed;
+    -fx-border-width: 0 0 3 0;
+    -fx-border-color: rgba(15,15,15,0.40);
+}
+.form_items_txtF_red{
+     -fx-background-color: rgba(244,244,244,0.90);
+     -fx-text-fill: RED;
+     -fx-border-style: dashed;
+     -fx-border-width: 0 0 3 0;
+     -fx-border-color: rgba(15,15,15,0.40);
+}
+.form_items_txtF_black{
+     -fx-background-color: rgba(244,244,244,0.90);
+     -fx-text-fill: BLACK;
+     -fx-border-style: dashed;
+     -fx-border-width: 0 0 3 0;
+     -fx-border-color: rgba(15,15,15,0.40);
+}
+.form_items_lbl{
+    -fx-background-color: rgba(244,244,244,0.90);
+    -fx-text-fill: rgba(0,0,0,0.80);
+}
+.form_items_btn_addNew{
+    -fx-background-color: rgba(15,125,00,0.70);
+    -fx-text-fill: rgba(255,255,255,0.80);
+}
+.form_items_btn_center{
+    -fx-background-color: rgba(66,111,191,0.80);
+    -fx-text-fill: rgba(255,255,255,0.80);
+}
+.form_items_btn_wait{
+    -fx-background-color: rgba(254, 225, 3,0.80);
+    -fx-text-fill: rgba(255,255,255,0.80);
+}
+.form_items_btn_delete{
+    -fx-background-color: rgba(153,23,00,0.70);
+    -fx-text-fill: rgba(255,255,255,0.80);
+}
+.form_items_btn_radiusLeft{
+    -fx-background-radius: 0 25 25 0;
+    -fx-border-radius: 0 25 25 0;
+}
+.form_items_btn_radiusRight{
+    -fx-background-radius: 25 0 0 25;
+    -fx-border-radius: 25 0 0 25;
+}
+.form_items_btn_radiusFull{
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+}
+.form_items_btn_radiusTop{
+    -fx-background-radius: 0 0 25 25;
+    -fx-border-radius: 0 0 25 25;
+}
+.form_items_btn_radiusTopLeft{
+    -fx-background-radius: 0 25 0 0;
+    -fx-border-radius: 0 25 0 0;
+}
+.form_items_btn_radiusTopRight{
+    -fx-background-radius: 25 0 0 0;
+    -fx-border-radius: 25 0 0 0;
+}
+.form_items_btn_radiusBottom{
+    -fx-background-radius: 25 25 0 0;
+    -fx-border-radius: 25 25 0 0;
+}
+.form_items_btn_radiusBottomLeft{
+    -fx-background-radius: 0 0 25 0;
+    -fx-border-radius: 0 0 25 0;
+}
+.form_items_btn_radiusBottomRight{
+    -fx-background-radius: 0 0 0 25;
+    -fx-border-radius: 0 0 0 25;
+}
+.form_items_billPrices{
+    -fx-background-color: rgba(244,244,244,0.80);
+    -fx-text-fill: rgba(0,0,0,0.80);
+    -fx-background-radius: 25;
+}
+.form_items_list{
+    -fx-background-color: rgba(244,244,244,0.80);
+    -fx-text-fill: rgba(0,0,0,0.80);
+    /*-fx-background-radius: 25;*/
+}
+.form_items_list:odd:empty:even {
+    -fx-background-color: TRANSPARENT;
+}
+.form_items_list .virtual-flow .scroll-bar .increment-button,
+.form_items_list .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 0;
+}
+/*MHM*/
+.form_items_list .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  rgba(150,150,150,0.90);
+}
+.form_items_list .cell {
+    /*-fx-background-radius: 25;*/
+    -fx-alignment: CENTER;
+    -fx-padding: 0 0 3 0;
+}
+
+
+.titled-pane {
+    -fx-effect: dropshadow(three-pass-box, #9F9F9F, 15, 0, 0, 0);
+    -fx-animated: true;
+    -fx-text-fill: #505050;
+}
+.titled-pane > .title > .arrow-button > .arrow {
+    -fx-background-color:  transparent;
+}
+
+.titled-pane > .title  {
+    -fx-background-radius: 0, 0, 0;
+    -fx-font: bold 14px System;
+
+    /* stop the background from being blue on focus */
+    -fx-background-color: ladder(
+            red,
+            black 20%,
+            derive(#d0d0d0,-30%) 30%
+        ),
+        linear-gradient(
+        to bottom,
+            ladder(#d0d0d0,
+                derive(#d0d0d0,80%) 60%,
+                white 82%) 0%,
+            ladder(#d0d0d0,
+                derive(#d0d0d0,20%) 10%,
+                derive(#d0d0d0,-10%) 80%) 100%
+        ), linear-gradient(
+            to bottom,
+            derive(#d0d0d0,34%) 0%,
+            derive(#d0d0d0,-18%) 100%
+        );
+}
